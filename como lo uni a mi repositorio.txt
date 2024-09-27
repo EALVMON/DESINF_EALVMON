@@ -1,0 +1,61 @@
+E:\17 GIT_HUB>echo "# DESINF_EALVMON" >> README.md
+
+E:\17 GIT_HUB>git init
+Initialized empty Git repository in E:/17 GIT_HUB/.git/
+
+E:\17 GIT_HUB>git add README.md
+
+E:\17 GIT_HUB>git commit -m "prueba"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'monte@PATRIARCA.(none)')
+
+E:\17 GIT_HUB>git config --global user.name "EALVMON"
+
+E:\17 GIT_HUB>git commit -m "prueba"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'monte@PATRIARCA.(none)')
+
+E:\17 GIT_HUB>git config --global user.email "montes667@hotmail.com"
+
+E:\17 GIT_HUB>git commit -m "prueba"
+[master (root-commit) 6ab6f03] prueba
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+E:\17 GIT_HUB>git branch -M main
+
+E:\17 GIT_HUB>git remote add origin https://github.com/EALVMON/DESINF_EALVMON.git
+
+E:\17 GIT_HUB>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/EALVMON/DESINF_EALVMON.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\17 GIT_HUB>
