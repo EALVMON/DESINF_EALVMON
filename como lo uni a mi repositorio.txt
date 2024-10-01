@@ -1,4 +1,4 @@
-E:\17 GIT_HUB>echo "# DESINF_EALVMON" >> README.md b
+E:\17 GIT_HUB>echo "# DESINF_EALVMON" >> README.md 
 
 E:\17 GIT_HUB>git init
 Initialized empty Git repository in E:/17 GIT_HUB/.git/
